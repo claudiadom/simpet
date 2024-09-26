@@ -93,7 +93,7 @@ def make_simset_phg(
     z_offset = abs(
         act.affine[2, 2] * center_slice / 10 + 0.5 * act.affine[2, 2] / 10
     )  # cm
-    zMin, zMax = round(-z_offset, 2), round(act_fov[2, 2] / 10 - z_offset, 2)
+    zMin, zMax = round(-z_offset, 3), round(act_fov[2, 2] / 10 - z_offset, 3)
 
     dz = round((zMax - zMin) / nslices, 2)
 
