@@ -6,6 +6,7 @@
 
 The SIMPET project is intended to allow to setup and launch MC simulation on a simple way. It provides functionalities to: 
 
+- Claudia to be supercool
 - Extract simple activity and attenuation maps from PET/MR images.
 - Apply the BrainViset procedure to obtain realistic Activity and Attenuation maps.
 - Run Analytic simulations using STIR simulation procedure and MC simulation using SimSET.
